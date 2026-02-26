@@ -103,7 +103,7 @@ export default function Home() {
               </p>
               <h1 className="mt-3 text-3xl font-semibold leading-tight text-slate-900 sm:text-4xl lg:text-5xl">
                 Pain-Free & Advanced Dental Treatment in{" "}
-                <span className="text-amber-700">[Andheri East]</span>
+                <span className="text-amber-700">Andheri East</span>
               </h1>
             </div>
 
@@ -257,7 +257,7 @@ export default function Home() {
               About Our Clinic
             </h2>
             <p className="mt-3 text-sm text-slate-600 sm:text-base">
-              Providing advanced and painless dental care in [City] with modern
+              Providing advanced and painless dental care in Andheri East with modern
               equipment and experienced specialists. We focus on gentle
               treatments, strict hygiene and long-term oral health for you and
               your family.
@@ -272,7 +272,7 @@ export default function Home() {
                   10+ Years
                 </p>
                 <p className="mt-1 text-xs text-slate-500">
-                  Trusted dental care in [City]
+                  Trusted dental care in Andheri East
                 </p>
               </div>
               <div className="rounded-2xl bg-amber-50 p-4 shadow-sm shadow-amber-100">
