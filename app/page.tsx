@@ -273,6 +273,23 @@ export default function Home() {
             <p className="text-sm leading-relaxed text-slate-500">
               She is known for her warm, calming demeanor, making even the most anxious patients feel at ease. Believing in a partnership with her patients, Dr. Singh prioritizes clear communication and personalized care plans, ensuring every treatment is tailored for long-term health and well-being. Her commitment is to provide you with a dental experience that is as comfortable as it is transformative.
             </p>
+            <div className="grid gap-3 sm:grid-cols-3 pt-1">
+              <div className="rounded-2xl bg-amber-50/80 p-4 shadow-sm border border-amber-100">
+                <p className="text-[10px] font-bold uppercase tracking-widest text-amber-700">Experience</p>
+                <p className="mt-1 text-xl font-black text-slate-900">10+ Years</p>
+                <p className="mt-1 text-[11px] text-slate-500 font-medium">Trusted dental care in Andheri East</p>
+              </div>
+              <div className="rounded-2xl bg-amber-50/80 p-4 shadow-sm border border-amber-100">
+                <p className="text-[10px] font-bold uppercase tracking-widest text-amber-700">Technology</p>
+                <p className="mt-1 text-xl font-black text-slate-900">Digital X-Ray</p>
+                <p className="mt-1 text-[11px] text-slate-500 font-medium">Modern, low-radiation imaging</p>
+              </div>
+              <div className="rounded-2xl bg-amber-50/80 p-4 shadow-sm border border-amber-100">
+                <p className="text-[10px] font-bold uppercase tracking-widest text-amber-700">Comfort</p>
+                <p className="mt-1 text-xl font-black text-slate-900">Painless Care</p>
+                <p className="mt-1 text-[11px] text-slate-500 font-medium">Gentle, patient-friendly approach</p>
+              </div>
+            </div>
             <div className="grid grid-cols-2 gap-3 pt-1 text-sm">
               <div className="flex items-center gap-2 font-bold text-slate-700">
                 <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
