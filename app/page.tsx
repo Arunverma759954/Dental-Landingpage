@@ -64,9 +64,6 @@ export default function Home() {
               <p className="text-sm font-semibold uppercase tracking-wide text-amber-700">
                 Andheri Dental Clinic
               </p>
-              <p className="text-xs text-slate-500">
-                Advanced &amp; painless dental care
-              </p>
             </div>
           </div>
 
@@ -122,10 +119,10 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col justify-center gap-6">
-            <div className="inline-flex items-center gap-2 self-start rounded-full bg-amber-100 px-3 py-1 text-xs font-medium text-amber-800 ring-1 ring-amber-200">
-              <span>⭐ 5★ Rated Dental Clinic</span>
-              <span className="h-1 w-1 rounded-full bg-emerald-300" />
-              <span>10+ Years Experience</span>
+            <div className="flex flex-col sm:flex-row items-center gap-2 self-start rounded-2xl sm:rounded-full bg-amber-100 px-3 py-2 sm:py-1 text-xs font-medium text-amber-800 ring-1 ring-amber-200">
+              <span className="flex items-center gap-1">⭐ 5★ Rated Dental Clinic</span>
+              <span className="hidden sm:block h-1 w-1 rounded-full bg-emerald-300" />
+              <span className="flex items-center gap-1">10+ Years Experience</span>
             </div>
 
             <div>
