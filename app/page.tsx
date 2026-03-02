@@ -258,30 +258,39 @@ export default function Home() {
 
         {/* 2. About Clinic - Screenshot Matching Layout */}
         <section className="mt-16 grid gap-8 lg:grid-cols-[1.2fr_minmax(0,1fr)] items-start">
-          {/* Left: Heading + Description + Stat Cards */}
-          <div>
-            <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">About Our Clinic</h2>
-            <p className="mt-3 text-sm text-slate-600 sm:text-base leading-relaxed">
-              Providing advanced and painless dental care in Andheri East with modern equipment and
-              experienced specialists. We focus on gentle treatments, strict hygiene and long-term oral
-              health for you and your family.
+          {/* Left: Doctor Biography */}
+          <div className="space-y-5">
+            <div className="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-4 py-1.5 text-[10px] font-black uppercase tracking-[0.2em] text-emerald-700 ring-1 ring-emerald-200">
+              🦷 Expert Specialist
+            </div>
+            <h2 className="text-2xl font-black text-slate-900 sm:text-3xl leading-tight">
+              At the heart of Andheri Dental Clinic is{" "}
+              <span className="text-amber-700">Dr. Poonam Singh.</span>
+            </h2>
+            <p className="text-sm sm:text-base leading-relaxed text-slate-600">
+              At the heart of Andheri Dental Clinic is Dr. Poonam Brahmadeen Singh, a dedicated Periodontist and Oral Implantologist with a passion for creating healthy, beautiful smiles. With her advanced qualifications (BDS, MDS) and a deep-seated expertise in gum treatments, dental implants, and full-mouth rehabilitation, Dr. Singh goes beyond just treating teeth—she restores confidence.
             </p>
-
-            <div className="mt-6 grid gap-4 sm:grid-cols-3">
-              <div className="rounded-2xl bg-amber-50/80 p-4 shadow-sm border border-amber-100">
-                <p className="text-[10px] font-bold uppercase tracking-widest text-amber-700">Experience</p>
-                <p className="mt-1 text-xl font-black text-slate-900">10+ Years</p>
-                <p className="mt-1 text-[11px] text-slate-500 font-medium">Trusted dental care in Andheri East</p>
+            <p className="text-sm leading-relaxed text-slate-500">
+              She is known for her warm, calming demeanor, making even the most anxious patients feel at ease. Believing in a partnership with her patients, Dr. Singh prioritizes clear communication and personalized care plans, ensuring every treatment is tailored for long-term health and well-being. Her commitment is to provide you with a dental experience that is as comfortable as it is transformative.
+            </p>
+            <div className="grid grid-cols-2 gap-3 pt-1 text-sm">
+              <div className="flex items-center gap-2 font-bold text-slate-700">
+                <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
+                Periodontics Specialist
               </div>
-              <div className="rounded-2xl bg-amber-50/80 p-4 shadow-sm border border-amber-100">
-                <p className="text-[10px] font-bold uppercase tracking-widest text-amber-700">Technology</p>
-                <p className="mt-1 text-xl font-black text-slate-900">Digital X-Ray</p>
-                <p className="mt-1 text-[11px] text-slate-500 font-medium">Modern, low-radiation imaging</p>
+              <div className="flex items-center gap-2 font-bold text-slate-700">
+                <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
+                Oral Implantology Expert
               </div>
-              <div className="rounded-2xl bg-amber-50/80 p-4 shadow-sm border border-amber-100">
-                <p className="text-[10px] font-bold uppercase tracking-widest text-amber-700">Comfort</p>
-                <p className="mt-1 text-xl font-black text-slate-900">Painless Care</p>
-                <p className="mt-1 text-[11px] text-slate-500 font-medium">Gentle, patient-friendly approach</p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 pt-1">
+              <div className="flex-1 rounded-2xl bg-amber-50 border border-amber-100 p-4">
+                <p className="text-[10px] font-black uppercase tracking-widest text-amber-700">Education</p>
+                <p className="mt-1 text-sm font-bold text-slate-900">M.D.S. in Periodontics &amp; Oral Implantology</p>
+              </div>
+              <div className="flex-1 rounded-2xl bg-amber-50 border border-amber-100 p-4">
+                <p className="text-[10px] font-black uppercase tracking-widest text-amber-700">Experience</p>
+                <p className="mt-1 text-sm font-bold text-slate-900">Ex-Senior Resident, MGM Dental College</p>
               </div>
             </div>
           </div>
