@@ -22,7 +22,7 @@ export default function Home() {
           href="#appointment"
           className="flex flex-1 items-center justify-center gap-2 bg-blue-600 px-4 py-4 text-sm font-bold text-white transition hover:bg-blue-700"
         >
-          Get Free Support
+          Book Appointment
         </a>
         {/* WhatsApp */}
         <a
@@ -68,6 +68,16 @@ export default function Home() {
                 Advanced &amp; painless dental care
               </p>
             </div>
+          </div>
+
+          {/* Mobile Phone Number */}
+          <div className="flex md:hidden">
+            <a
+              href={phonePrimaryHref}
+              className="text-sm font-bold text-amber-700 hover:text-amber-800 transition-colors"
+            >
+              📞 {phonePrimary}
+            </a>
           </div>
 
           <div className="hidden items-center gap-3 md:flex">
@@ -518,28 +528,28 @@ export default function Home() {
           </div>
 
           <div className="mx-auto max-w-7xl">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 auto-rows-[250px] md:auto-rows-[300px]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-                { src: "/neww.jpeg", alt: "Advanced Dental Care", className: "col-span-2 md:col-span-2 md:row-span-2" },
-                { src: "/doc.jpeg", alt: "Clinical Excellence", className: "col-span-2 md:col-span-2 md:row-span-1" },
-                { src: "/neww1.jpeg", alt: "Modern Clinical Setup", className: "col-span-1 md:col-span-1 md:row-span-1" },
-                { src: "/neww2.jpeg", alt: "Expert Dental Procedures", className: "col-span-1 md:col-span-1 md:row-span-1" },
-                { src: "/neww3.jpeg", alt: "Patient Comfort Room", className: "col-span-1 md:col-span-1 md:row-span-1" },
-                { src: "/neww4.jpeg", alt: "Specialized Equipment", className: "col-span-1 md:col-span-1 md:row-span-1" },
-                { src: "/neww5.jpeg", alt: "Compassionate Care", className: "col-span-2 md:col-span-2 md:row-span-1" },
+                { src: "/neww.jpeg", alt: "Advanced Dental Care" },
+                { src: "/doc.jpeg", alt: "Clinical Excellence" },
+                { src: "/neww1.jpeg", alt: "Modern Clinical Setup" },
+                { src: "/neww2.jpeg", alt: "Expert Dental Procedures" },
+                { src: "/neww3.jpeg", alt: "Patient Comfort Room" },
+                { src: "/neww4.jpeg", alt: "Specialized Equipment" },
+                { src: "/neww5.jpeg", alt: "Compassionate Care" },
               ].map((item, idx) => (
                 <div
                   key={idx}
-                  className={`group relative overflow-hidden rounded-[2.5rem] bg-slate-50 p-6 shadow-2xl shadow-slate-200/50 ring-1 ring-slate-100 transition-all duration-700 hover:-translate-y-2 hover:shadow-premium ${item.className}`}
+                  className="group relative overflow-hidden rounded-[2.5rem] bg-slate-50 shadow-2xl shadow-slate-200/50 ring-1 ring-slate-100 transition-all duration-700 hover:-translate-y-2 hover:shadow-premium aspect-[4/3]"
                 >
-                  <div className="relative h-full w-full overflow-hidden rounded-[2rem]">
+                  <div className="relative h-full w-full overflow-hidden">
                     <Image
                       src={item.src}
                       alt={item.alt}
                       fill
-                      className="object-contain transition-transform duration-1000 group-hover:scale-110"
+                      className="object-cover transition-transform duration-1000 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-clinical-slate-900/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-8">
                       <div className="translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                         <p className="text-xl font-black text-white leading-tight drop-shadow-md">
                           {item.alt}
