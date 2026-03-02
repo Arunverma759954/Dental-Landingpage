@@ -51,8 +51,8 @@ export default function Home() {
       {/* Navbar – no links, only actions */}
       <header className="border-b border-amber-100 bg-white/80 backdrop-blur sticky top-0 z-40">
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-4 lg:px-8 lg:py-5">
-          <div className="flex items-center gap-3">
-            <div className="relative h-11 w-11 overflow-hidden rounded-full bg-amber-50 ring-2 ring-amber-300">
+          <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+            <div className="relative h-9 w-9 sm:h-11 sm:w-11 shrink-0 overflow-hidden rounded-full bg-amber-50 ring-2 ring-amber-300">
               <Image
                 src="/logo.png"
                 alt="Andheri Dental Clinic logo"
@@ -60,20 +60,20 @@ export default function Home() {
                 className="object-contain"
               />
             </div>
-            <div className="leading-tight">
-              <p className="text-sm font-semibold uppercase tracking-wide text-amber-700">
+            <div className="leading-tight min-w-0 hidden sm:block">
+              <p className="text-[11px] sm:text-sm font-semibold uppercase tracking-wide text-amber-700 truncate sm:whitespace-normal">
                 Andheri Dental Clinic
               </p>
             </div>
           </div>
 
           {/* Mobile Phone Number */}
-          <div className="flex md:hidden">
+          <div className="flex md:hidden shrink-0 ml-2">
             <a
               href={phonePrimaryHref}
-              className="text-sm font-bold text-amber-700 hover:text-amber-800 transition-colors"
+              className="px-3 py-1.5 rounded-full bg-amber-600 text-white text-[11px] sm:text-sm font-bold hover:bg-amber-700 transition-colors whitespace-nowrap shadow-sm shadow-amber-500/30"
             >
-              📞 {phonePrimary}
+              {phonePrimary}
             </a>
           </div>
 
@@ -449,19 +449,19 @@ export default function Home() {
                 {
                   title: "Free Dental Checkup",
                   desc: "Complete oral health evaluation at zero consultation cost.",
-                  img: "/img1.webp",
+                  img: "/IMG_8415 2.JPG.jpeg",
                   tag: "NEW PATIENT"
                 },
                 {
                   title: "20% Off Whitening",
                   desc: "Brighten your smile with safe, professional grade treatment.",
-                  img: "/img2.webp",
+                  img: "/IMG_8437 2.JPG.jpeg",
                   tag: "BRIGHTER SMILE"
                 },
                 {
                   title: "Free X-Ray with RCT",
                   desc: "Precision digital X-ray included with target treatments.",
-                  img: "/img9.webp",
+                  img: "/IMG_8448 2.JPG.jpeg",
                   tag: "ADVANCED CARE"
                 }
               ].map((offer, idx) => (
