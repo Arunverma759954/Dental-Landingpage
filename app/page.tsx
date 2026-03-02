@@ -315,7 +315,7 @@ export default function Home() {
           {/* Right: Doctor Image Card */}
           <div className="relative group self-start w-full">
             <div className="absolute -inset-3 rounded-[3rem] bg-amber-200/40 blur-2xl group-hover:bg-amber-300/40 transition-colors"></div>
-            <div className="relative h-72 sm:h-80 w-full overflow-hidden rounded-[2.5rem] shadow-2xl ring-1 ring-amber-100 bg-white">
+            <div className="relative h-96 sm:h-[520px] w-full overflow-hidden rounded-[2.5rem] shadow-2xl ring-1 ring-amber-100 bg-white">
               <Image
                 src="/dr.webp"
                 alt="Dr. Poonam Singh"
