@@ -15,21 +15,36 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white text-slate-900">
-      {/* Floating buttons (mobile) */}
-      <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-3 md:hidden">
+      {/* Sticky Bottom Bar – mobile only */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 flex items-center border-t border-slate-200 bg-white shadow-[0_-4px_24px_rgba(0,0,0,0.08)] md:hidden">
+        {/* Get Free Support */}
         <a
-          href={phonePrimaryHref}
-          className="flex items-center justify-center rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-emerald-500/40"
+          href="#appointment"
+          className="flex flex-1 items-center justify-center gap-2 bg-blue-600 px-4 py-4 text-sm font-bold text-white transition hover:bg-blue-700"
         >
-          📞 Call
+          Get Free Support
         </a>
+        {/* WhatsApp */}
         <a
           href={`https://wa.me/${whatsappNumber}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center rounded-full bg-green-500 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-green-500/40"
+          aria-label="Chat on WhatsApp"
+          className="flex items-center justify-center border-l border-slate-200 px-6 py-4 transition hover:bg-green-50"
         >
-          💬 WhatsApp
+          <svg viewBox="0 0 32 32" className="h-7 w-7" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#25D366" d="M16 2C8.268 2 2 8.268 2 16c0 2.482.666 4.81 1.822 6.822L2 30l7.395-1.791A13.94 13.94 0 0 0 16 30c7.732 0 14-6.268 14-14S23.732 2 16 2zm7.41 19.574c-.31.872-1.538 1.596-2.528 1.806-.674.14-1.554.252-4.515-.972-3.787-1.536-6.231-5.376-6.422-5.626-.183-.25-1.54-2.048-1.54-3.906 0-1.858.97-2.772 1.316-3.153.347-.38.756-.476 1.008-.476.252 0 .504.003.724.012.232.01.544-.088.85.65.31.748 1.054 2.606 1.146 2.794.092.188.15.408.03.658-.12.25-.18.407-.356.626-.176.22-.37.49-.528.658-.176.188-.36.39-.154.766.206.376.914 1.508 1.964 2.44 1.35 1.204 2.49 1.576 2.866 1.752.376.176.594.147.812-.088.22-.236.94-1.096 1.19-1.472.25-.376.5-.314.844-.188.344.126 2.19 1.032 2.566 1.22.376.188.628.282.72.438.09.156.09.9-.22 1.772z" />
+          </svg>
+        </a>
+        {/* Call */}
+        <a
+          href={phonePrimaryHref}
+          aria-label="Call us"
+          className="flex items-center justify-center border-l border-slate-200 px-6 py-4 transition hover:bg-blue-50"
+        >
+          <svg viewBox="0 0 24 24" className="h-6 w-6 fill-blue-600" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.26.2 2.47.57 3.58a1 1 0 0 1-.25 1.01l-2.2 2.2z" />
+          </svg>
         </a>
       </div>
 
