@@ -175,12 +175,12 @@ export default function Home() {
           {/* Quick Appointment Form */}
           <div
             id="appointment"
-            className="flex flex-col justify-center rounded-2xl bg-amber-50 p-5 shadow-lg shadow-amber-100 ring-1 ring-amber-100 sm:p-6"
+            className="flex flex-col justify-center rounded-2xl bg-[#B8860B] p-5 shadow-lg shadow-amber-100 ring-1 ring-amber-100 sm:p-6"
           >
-            <h2 className="text-lg font-semibold text-slate-900 sm:text-xl">
+            <h2 className="text-lg font-semibold text-white sm:text-xl">
               Book Your Free Consultation
             </h2>
-            <p className="mt-1 text-xs text-slate-500 sm:text-sm">
+            <p className="mt-1 text-xs text-amber-50 sm:text-sm">
               Share a few details and our team will call you to confirm your
               appointment.
             </p>
@@ -194,7 +194,7 @@ export default function Home() {
               <div className="space-y-1.5">
                 <label
                   htmlFor="name"
-                  className="text-xs font-medium text-slate-700"
+                  className="text-xs font-medium text-white"
                 >
                   Name
                 </label>
@@ -211,7 +211,7 @@ export default function Home() {
               <div className="space-y-1.5">
                 <label
                   htmlFor="phone"
-                  className="text-xs font-medium text-slate-700"
+                  className="text-xs font-medium text-white"
                 >
                   Phone Number
                 </label>
@@ -228,7 +228,7 @@ export default function Home() {
               <div className="space-y-1.5">
                 <label
                   htmlFor="treatment"
-                  className="text-xs font-medium text-slate-700"
+                  className="text-xs font-medium text-white"
                 >
                   Treatment Needed
                 </label>
@@ -251,7 +251,7 @@ export default function Home() {
               <div className="space-y-1.5">
                 <label
                   htmlFor="date"
-                  className="text-xs font-medium text-slate-700"
+                  className="text-xs font-medium text-white"
                 >
                   Preferred Date
                 </label>
@@ -270,7 +270,7 @@ export default function Home() {
                 📅 Book Free Consultation
               </button>
 
-              <p className="text-[11px] leading-snug text-slate-400">
+              <p className="text-[11px] leading-snug text-amber-50">
                 No charges for consultation. Our team will confirm your
                 appointment time over call or WhatsApp.
               </p>
@@ -299,17 +299,17 @@ export default function Home() {
               <div className="rounded-2xl bg-amber-50/80 p-4 shadow-sm border border-amber-100">
                 <p className="text-[10px] font-bold uppercase tracking-widest text-amber-700">Experience</p>
                 <p className="mt-1 text-xl font-black text-slate-900">10+ Years</p>
-                <p className="mt-1 text-[11px] text-slate-500 font-medium">Trusted dental care in Andheri East</p>
+                <p className="mt-1 text-[11px] text-slate-500 font-black">Trusted dental care in Andheri East</p>
               </div>
               <div className="rounded-2xl bg-amber-50/80 p-4 shadow-sm border border-amber-100">
                 <p className="text-[10px] font-bold uppercase tracking-widest text-amber-700">Technology</p>
                 <p className="mt-1 text-xl font-black text-slate-900">Digital X-Ray</p>
-                <p className="mt-1 text-[11px] text-slate-500 font-medium">Modern, low-radiation imaging</p>
+                <p className="mt-1 text-[11px] text-slate-500 font-black">Modern, low-radiation imaging</p>
               </div>
               <div className="rounded-2xl bg-amber-50/80 p-4 shadow-sm border border-amber-100">
                 <p className="text-[10px] font-bold uppercase tracking-widest text-amber-700">Comfort</p>
                 <p className="mt-1 text-xl font-black text-slate-900">Painless Care</p>
-                <p className="mt-1 text-[11px] text-slate-500 font-medium">Gentle, patient-friendly approach</p>
+                <p className="mt-1 text-[11px] text-slate-500 font-black">Gentle, patient-friendly approach</p>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-3 pt-1 text-sm">
@@ -339,10 +339,10 @@ export default function Home() {
             <div className="absolute -inset-3 rounded-[3rem] bg-amber-200/40 blur-2xl group-hover:bg-amber-300/40 transition-colors"></div>
             <div className="relative h-96 sm:h-[520px] w-full overflow-hidden rounded-[2.5rem] shadow-2xl ring-1 ring-amber-100 bg-white">
               <Image
-                src="/dr.webp"
+                src="/dr-img.png"
                 alt="Dr. Poonam Singh"
                 fill
-                className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                className="object-contain object-bottom transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-900/85 to-transparent p-6 sm:p-8">
                 <p className="text-xl font-black text-white">Dr. Poonam Singh</p>
@@ -396,15 +396,15 @@ export default function Home() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="group rounded-[2.5rem] bg-amber-50/50 p-6 shadow-sm shadow-amber-100 ring-1 ring-amber-100/70 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-amber-200"
+                className="group rounded-[2.5rem] bg-[#B8860B] p-6 shadow-sm shadow-amber-100 ring-1 ring-amber-100/70 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-amber-200"
               >
-                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-100 text-2xl">
+                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-100/20 text-2xl">
                   {item.icon}
                 </div>
-                <h3 className="text-lg font-black text-slate-900">
+                <h3 className="text-lg font-black text-white">
                   {item.title}
                 </h3>
-                <p className="mt-2 text-sm text-slate-600 font-medium leading-relaxed">
+                <p className="mt-2 text-sm text-amber-50 font-medium leading-relaxed">
                   {item.desc}
                 </p>
               </div>
@@ -575,22 +575,22 @@ export default function Home() {
             </p>
 
             <div className="mt-8 grid gap-4">
-              <div className="rounded-3xl bg-amber-50 p-6 shadow-sm border border-amber-100/50">
-                <p className="text-[10px] font-black uppercase tracking-widest text-amber-700 mb-2">Full Address</p>
-                <p className="text-sm font-bold text-slate-800 leading-relaxed">
+              <div className="rounded-3xl bg-[#B8860B] p-6 shadow-sm border border-amber-100/50">
+                <p className="text-[10px] font-black uppercase tracking-widest text-white mb-2">Full Address</p>
+                <p className="text-sm font-bold text-white leading-relaxed">
                   Shop no. 9, Ground Floor, Moonlight C.H.S. Ltd, New Mahakali Caves Rd, Chakala, Andheri East, Mumbai, Maharashtra 400093
                 </p>
               </div>
 
               <div className="grid gap-4 sm:grid-cols-2">
-                <div className="rounded-3xl bg-emerald-50 p-6 shadow-sm border border-emerald-100/50">
-                  <p className="text-[10px] font-black uppercase tracking-widest text-emerald-700 mb-2">Direct Contact</p>
-                  <a href={phonePrimaryHref} className="text-lg font-black text-emerald-900 hover:text-emerald-700 transition-colors">
+                <div className="rounded-3xl bg-[#B8860B] p-6 shadow-sm border border-amber-100/50">
+                  <p className="text-[10px] font-black uppercase tracking-widest text-white mb-2">Direct Contact</p>
+                  <a href={phonePrimaryHref} className="text-lg font-black text-white hover:text-amber-100 transition-colors">
                     {phonePrimary}
                   </a>
                 </div>
-                <div className="rounded-3xl bg-slate-900 p-6 shadow-xl">
-                  <p className="text-[10px] font-black uppercase tracking-widest text-amber-400 mb-2">Working Hours</p>
+                <div className="rounded-3xl bg-[#B8860B] p-6 shadow-xl border border-amber-100/50">
+                  <p className="text-[10px] font-black uppercase tracking-widest text-white mb-2">Working Hours</p>
                   <p className="text-sm font-bold text-white">Mon – Sat: 10AM–2PM, 5PM–9PM</p>
                 </div>
               </div>
@@ -610,7 +610,7 @@ export default function Home() {
 
         {/* 7. Final CTA */}
         <section className="mt-32 relative px-4">
-          <div className="rounded-[3rem] bg-amber-700 px-6 py-16 text-center text-white shadow-[0_30px_60px_-15px_rgba(180,83,9,0.4)] overflow-hidden">
+          <div className="rounded-[3rem] bg-[#B8860B] px-6 py-16 text-center text-white shadow-[0_30px_60px_-15px_rgba(180,83,9,0.4)] overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent)] pointer-events-none"></div>
 
             <h2 className="text-3xl font-black sm:text-5xl leading-tight max-w-3xl mx-auto">
