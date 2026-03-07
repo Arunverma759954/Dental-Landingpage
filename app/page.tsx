@@ -286,7 +286,7 @@ export default function Home() {
               🦷 Expert Specialist
             </div>
             <h2 className="text-2xl font-black text-slate-900 sm:text-3xl leading-tight">
-                <span className="text-amber-700">Meet Dr. Poonam Singh </span>
+                <span className="text-amber-700">Meet Dr. Poonam Singh -</span>
               Andheri's Trusted Specialist in Implants & Gum Care{" "}
             
             </h2>
@@ -314,23 +314,26 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-3 pt-1 text-sm">
               <div className="flex items-center gap-2 font-bold text-slate-700">
                 <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
-                Periodontics Specialist
+               BDS 
               </div>
               <div className="flex items-center gap-2 font-bold text-slate-700">
                 <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
-                Oral Implantology Expert
+               MDS 
+              </div>
+              <div className="flex items-center gap-2 font-bold text-slate-700">
+                <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
+               Periodontics 
+              </div>
+              <div className="flex items-center gap-2 font-bold text-slate-700">
+                <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
+              10 Years+
+              </div>
+              <div className="flex items-center gap-2 font-bold text-slate-700">
+                <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
+              Ex-MGM Dental College
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 pt-1">
-              <div className="flex-1 rounded-2xl bg-amber-50 border border-amber-100 p-4">
-                <p className="text-[10px] font-black uppercase tracking-widest text-amber-700">Education</p>
-                <p className="mt-1 text-sm font-bold text-slate-900">M.D.S. in Periodontics &amp; Oral Implantology</p>
-              </div>
-              <div className="flex-1 rounded-2xl bg-amber-50 border border-amber-100 p-4">
-                <p className="text-[10px] font-black uppercase tracking-widest text-amber-700">Experience</p>
-                <p className="mt-1 text-sm font-bold text-slate-900">Ex-Senior Resident, MGM Dental College</p>
-              </div>
-            </div>
+        
           </div>
 
           {/* Right: Doctor Image Card */}
