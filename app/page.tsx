@@ -286,7 +286,7 @@ export default function Home() {
               🦷 Expert Specialist
             </div>
             <h2 className="text-2xl font-black text-slate-900 sm:text-3xl leading-tight">
-                <span className="text-amber-700">Meet Dr. Poonam Singh</span>
+                <span className="text-amber-700">Meet Dr. Poonam Singh </span>
               Andheri's Trusted Specialist in Implants & Gum Care{" "}
             
             </h2>
