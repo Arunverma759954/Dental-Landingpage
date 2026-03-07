@@ -133,15 +133,13 @@ export default function Home() {
                 Andheri East • Mumbai
               </p>
               <h1 className="mt-3 text-3xl font-semibold leading-tight text-slate-900 sm:text-4xl lg:text-5xl">
-                Pain-Less &amp; Advanced Dental Treatment in{" "}
-                <span className="text-amber-700">Andheri East</span>
+                Best Dentist in Andheri East{" "}
+                <span className="text-amber-700">Book Your Consultation Today</span>
               </h1>
             </div>
 
             <p className="max-w-xl text-sm text-slate-600 sm:text-base">
-              Providing gentle, modern dental care with advanced technology and
-              a focus on comfort. From routine checkups to complete smile
-              makeovers, we care for your entire family.
+              Trusted by 1,000+ families in Andheri. Expert Periodontist Dr. Poonam Singh offers advanced, gentle dental treatments — from implants to braces — using the latest technology. Walk in comfortable. Walk out smiling.
             </p>
 
             <div className="flex flex-wrap items-center gap-3">
@@ -149,13 +147,13 @@ export default function Home() {
                 href="#appointment"
                 className="inline-flex items-center justify-center rounded-full bg-amber-600 px-6 py-3 text-sm font-semibold text-white shadow-md shadow-amber-500/40 transition hover:bg-amber-700"
               >
-                📅 Book Free Consultation
+                📅 Book Consultation
               </a>
               <a
                 href={phonePrimaryHref}
                 className="inline-flex items-center justify-center rounded-full border border-amber-200 bg-white px-5 py-3 text-sm font-semibold text-amber-800 shadow-sm transition hover:border-amber-300 hover:bg-amber-50"
               >
-                📞 Call Now: {phonePrimary}
+                📞 Call / WhatsApp: {phonePrimary}
               </a>
             </div>
 
@@ -164,13 +162,13 @@ export default function Home() {
                 <span className="h-7 w-7 rounded-full bg-amber-100 text-center text-lg leading-7">
                   😊
                 </span>
-                <span>1000+ Happy Patients</span>
+                <span>10+ Years Experience</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="h-7 w-7 rounded-full bg-amber-100 text-center text-lg leading-7">
                   🦷
                 </span>
-                <span>Painless &amp; gentle treatments</span>
+                <span>Zero Pain Guarantee</span>
               </div>
             </div>
           </div>
@@ -181,11 +179,10 @@ export default function Home() {
             className="flex flex-col justify-center rounded-2xl bg-[#B8860B] p-5 shadow-lg shadow-amber-100 ring-1 ring-amber-100 sm:p-6"
           >
             <h2 className="text-lg font-semibold text-white sm:text-xl">
-              Book Your Free Consultation
+              Book Your  Consultation
             </h2>
             <p className="mt-1 text-xs text-amber-50 sm:text-sm">
-              Share a few details and our team will call you to confirm your
-              appointment.
+              Takes 30 seconds. No payment needed. Our team will call you to confirm your slot.
             </p>
 
             <form
@@ -248,6 +245,7 @@ export default function Home() {
                   <option>Smile Makeover</option>
                   <option>Kids Dentistry</option>
                   <option>General Checkup / Cleaning</option>
+                  <option>Others</option>
                 </select>
               </div>
 
@@ -270,12 +268,12 @@ export default function Home() {
                 type="submit"
                 className="mt-2 flex w-full items-center justify-center rounded-full bg-emerald-500 px-5 py-2.5 text-sm font-semibold text-white shadow-md shadow-emerald-500/40 transition hover:bg-emerald-600"
               >
-                📅 Book Free Consultation
+                📅 Reserve My Slot Now
               </button>
 
               <p className="text-[11px] leading-snug text-amber-50">
-                No charges for consultation. Our team will confirm your
-                appointment time over call or WhatsApp.
+                Our team will confirm your
+                appointment time over call / WhatsApp.
               </p>
             </form>
           </div>
@@ -313,34 +311,39 @@ export default function Home() {
               🦷 Expert Specialist
             </div>
             <h2 className="text-2xl font-black text-slate-900 sm:text-3xl leading-tight">
-              At the heart of Andheri Dental Clinic is{" "}
-              <span className="text-amber-700">Dr. Poonam Singh.</span>
+              <span className="text-amber-700">Meet Dr. Poonam Singh -</span>
+              Andheri's Trusted Specialist in Implants & Gum Care{" "}
+
             </h2>
             <p className="text-sm sm:text-base leading-relaxed text-slate-600">
-              At the heart of Andheri Dental Clinic is Dr. Poonam Brahmadeen Singh, a dedicated Periodontist and Oral Implantologist with a passion for creating healthy, beautiful smiles. With her advanced qualifications (BDS, MDS) and a deep-seated expertise in gum treatments, dental implants, and full-mouth rehabilitation, Dr. Singh goes beyond just treating teeth—she restores confidence.
+              Dr. Poonam Brahmadeen Singh (BDS, MDS — Periodontics & Oral Implantology) has been restoring smiles in Andheri East since 2014. A former Senior Resident at the prestigious MGM Dental College, she specializes in pain-free implants, advanced gum treatments, and complete smile makeovers.  With over a decade of experience and 1,000+ successful procedures, Dr. Singh is known for one thing above all — making even the most anxious patients feel completely at ease.
             </p>
-            <p className="text-sm leading-relaxed text-slate-500">
-              She is known for her warm, calming demeanor, making even the most anxious patients feel at ease. Believing in a partnership with her patients, Dr. Singh prioritizes clear communication and personalized care plans, ensuring every treatment is tailored for long-term health and well-being. Her commitment is to provide you with a dental experience that is as comfortable as it is transformative.
-            </p>
+
 
             <div className="grid grid-cols-2 gap-3 pt-1 text-sm">
               <div className="flex items-center gap-2 font-bold text-slate-700">
                 <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
-                Periodontics Specialist
+                BDS
               </div>
               <div className="flex items-center gap-2 font-bold text-slate-700">
                 <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
-                Oral Implantology Expert
+                MDS
               </div>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4 pt-1">
-              <div className="flex-1 rounded-2xl bg-amber-50 border border-amber-100 p-4">
-                <p className="text-[10px] font-black uppercase tracking-widest text-amber-700">Education</p>
-                <p className="mt-1 text-sm font-bold text-slate-900">M.D.S. in Periodontics &amp; Oral Implantology</p>
+              <div className="flex items-center gap-2 font-bold text-slate-700">
+                <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
+                Periodontics
               </div>
-              <div className="flex-1 rounded-2xl bg-amber-50 border border-amber-100 p-4">
-                <p className="text-[10px] font-black uppercase tracking-widest text-amber-700">Experience</p>
-                <p className="mt-1 text-sm font-bold text-slate-900">Ex-Senior Resident, MGM Dental College</p>
+              <div className="flex items-center gap-2 font-bold text-slate-700">
+                <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
+                Oral Implantology
+              </div>
+              <div className="flex items-center gap-2 font-bold text-slate-700">
+                <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
+                10 Years+
+              </div>
+              <div className="flex items-center gap-2 font-bold text-slate-700">
+                <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
+                Ex-MGM Dental College
               </div>
             </div>
             <div className="pt-4">
@@ -403,37 +406,37 @@ export default function Home() {
             {[
               {
                 title: "Dental Implants",
-                desc: "Replace missing teeth with natural-looking, long-lasting implants.",
+                desc: "Missing tooth? Get a permanent, natural-looking implant that lasts a lifetime. No more gaps. No discomfort.",
                 icon: "🦷",
                 buttonText: "Book Implant Consult"
               },
               {
                 title: "Root Canal Treatment (RCT)",
-                desc: "Save damaged teeth with painless, advanced root canal procedures.",
+                desc: "Save your natural tooth — no pain, no drama. Our advanced RCT is done in a single visit in most cases.",
                 icon: "⚡",
                 buttonText: "Get Free Evaluation"
               },
               {
                 title: "Braces & Aligners",
-                desc: "Straighten your teeth with metal, ceramic or clear aligners.",
+                desc: "Crooked teeth? Choose from metal, ceramic, or invisible aligners — all at honest prices, all at your pace.",
                 icon: "📏",
                 buttonText: "Book Now"
               },
               {
                 title: "Teeth Whitening",
-                desc: "Get a brighter smile with safe and effective whitening.",
+                desc: "Look 5 years younger in 60 minutes. Professional-grade whitening — safe, fast, and long-lasting results.",
                 icon: "✨",
                 buttonText: "Book Now"
               },
               {
                 title: "Smile Makeover",
-                desc: "Design your dream smile with veneers, bonding and more.",
+                desc: "Veneers, bonding, contouring — we design the smile you've always wanted, tailored to your face.",
                 icon: "💎",
                 buttonText: "Book Now"
               },
               {
                 title: "Kids Dentistry",
-                desc: "Gentle treatments specially designed for children.",
+                desc: "Fun, gentle, and anxiety-free dental care for children. Dr. Singh's calming approach makes kids look forward to visits.",
                 icon: "👶",
                 buttonText: "Book Now"
               },
@@ -523,13 +526,13 @@ export default function Home() {
             <div className="relative flex flex-col gap-8 lg:grid lg:grid-cols-2 lg:items-end z-10">
               <div className="space-y-3">
                 <div className="inline-flex items-center gap-2 rounded-full bg-amber-100/50 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-amber-800 ring-1 ring-amber-200/50">
-                  Exclusive Benefits
+                  This Month's
                 </div>
                 <h2 className="text-3xl font-black text-slate-900 sm:text-4xl">
-                  Special Offers <span className="text-amber-700">This Month</span>
+                  Exclusive Offers —  <span className="text-amber-700">Only 12 Slots Remaining</span>
                 </h2>
                 <p className="max-w-xl text-slate-600 font-medium sm:text-lg">
-                  Limited-time opportunities to prioritize your oral health with expert care and modern technology.
+                  We've reserved a limited number of new patient slots this month with these special benefits. Once full, these offers close.
                 </p>
               </div>
               <div className="lg:text-right">
@@ -537,7 +540,7 @@ export default function Home() {
                   href="#appointment"
                   className="group inline-flex items-center justify-center gap-2 rounded-full bg-amber-600 px-8 py-4 text-sm font-black text-white shadow-xl shadow-amber-900/10 transition-all duration-300 hover:bg-amber-700 hover:-translate-y-1"
                 >
-                  Grab Offer & Book Slot
+                  Claim Your Offer — Book in 30 Seconds
                   <span className="text-lg transition-transform group-hover:translate-x-1">→</span>
                 </a>
               </div>
@@ -546,8 +549,8 @@ export default function Home() {
             <div className="mt-12 grid gap-6 sm:grid-cols-3">
               {[
                 {
-                  title: "Free Dental Checkup",
-                  desc: "Complete oral health evaluation at zero consultation cost.",
+                  title: "Dental Checkup",
+                  desc: "Complete oral health evaluation.",
                   img: "/IMG_8415 2.JPG.jpeg",
                   tag: "NEW PATIENT"
                 },
