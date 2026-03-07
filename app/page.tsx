@@ -170,6 +170,12 @@ export default function Home() {
                 </span>
                 <span>Zero Pain Guarantee</span>
               </div>
+              <div className="flex items-center gap-2">
+                <span className="h-7 w-7 rounded-full bg-amber-100 text-center text-lg leading-7">
+                  💰
+                </span>
+                <span>No Hidden Charges</span>
+              </div>
             </div>
           </div>
 
