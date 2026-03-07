@@ -132,7 +132,7 @@ export default function Home() {
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">
                 Andheri East • Mumbai
               </p>
-              <h1 className="mt-3 text-3xl font-semibold leading-tight text-slate-900 sm:text-4xl lg:text-5xl">
+              <h1 className="mt-3 text-xl font-semibold leading-tight text-slate-900 sm:text-2xl lg:text-4xl">
                 Best Dentist in Andheri East{" "}
                 <span className="text-amber-700">Book Your Consultation Today</span>
               </h1>
