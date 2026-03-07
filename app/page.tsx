@@ -326,6 +326,10 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-2 font-bold text-slate-700">
                 <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
+               Oral Implantology
+              </div>
+              <div className="flex items-center gap-2 font-bold text-slate-700">
+                <span className="h-5 w-5 rounded-full bg-emerald-100 flex items-center justify-center text-[10px] text-emerald-700 shrink-0">✓</span>
               10 Years+
               </div>
               <div className="flex items-center gap-2 font-bold text-slate-700">
