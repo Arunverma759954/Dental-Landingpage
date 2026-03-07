@@ -286,15 +286,14 @@ export default function Home() {
               🦷 Expert Specialist
             </div>
             <h2 className="text-2xl font-black text-slate-900 sm:text-3xl leading-tight">
-              At the heart of Andheri Dental Clinic is{" "}
-              <span className="text-amber-700">Dr. Poonam Singh.</span>
+                <span className="text-amber-700">Meet Dr. Poonam Singh</span>
+              Andheri's Trusted Specialist in Implants & Gum Care{" "}
+            
             </h2>
             <p className="text-sm sm:text-base leading-relaxed text-slate-600">
-              At the heart of Andheri Dental Clinic is Dr. Poonam Brahmadeen Singh, a dedicated Periodontist and Oral Implantologist with a passion for creating healthy, beautiful smiles. With her advanced qualifications (BDS, MDS) and a deep-seated expertise in gum treatments, dental implants, and full-mouth rehabilitation, Dr. Singh goes beyond just treating teeth—she restores confidence.
+             Dr. Poonam Brahmadeen Singh (BDS, MDS — Periodontics & Oral Implantology) has been restoring smiles in Andheri East since 2014. A former Senior Resident at the prestigious MGM Dental College, she specializes in pain-free implants, advanced gum treatments, and complete smile makeovers.  With over a decade of experience and 1,000+ successful procedures, Dr. Singh is known for one thing above all — making even the most anxious patients feel completely at ease.
             </p>
-            <p className="text-sm leading-relaxed text-slate-500">
-              She is known for her warm, calming demeanor, making even the most anxious patients feel at ease. Believing in a partnership with her patients, Dr. Singh prioritizes clear communication and personalized care plans, ensuring every treatment is tailored for long-term health and well-being. Her commitment is to provide you with a dental experience that is as comfortable as it is transformative.
-            </p>
+
             <div className="grid gap-3 sm:grid-cols-3 pt-1">
               <div className="rounded-2xl bg-amber-50/80 p-4 shadow-sm border border-amber-100">
                 <p className="text-[10px] font-bold uppercase tracking-widest text-amber-700">Experience</p>
