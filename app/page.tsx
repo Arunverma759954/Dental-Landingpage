@@ -132,8 +132,8 @@ export default function Home() {
                 Andheri East • Mumbai
               </p>
               <h1 className="mt-3 text-3xl font-semibold leading-tight text-slate-900 sm:text-4xl lg:text-5xl">
-                Pain-Less &amp; Advanced Dental Treatment in{" "}
-                <span className="text-amber-700">Andheri East</span>
+               Best Dentist in Andheri East{" "}
+                <span className="text-amber-700">Book Your Consultation Today</span>
               </h1>
             </div>
 
