@@ -50,6 +50,20 @@ export default function Home() {
         </a>
       </div>
 
+      {/* Top Bar Announcement */}
+      <div className="bg-gradient-to-r from-[#7cb342] via-[#d4e157] to-[#ffee58] py-2 px-4 text-center">
+        <p className="text-[11px] sm:text-sm font-medium text-slate-900">
+          <span className="font-black italic italic-bold">Hurry Up!</span> Only a few places available in some services{" "}
+          <Link href="#appointment" className="font-bold underline text-blue-800 decoration-blue-800 underline-offset-2">
+            Click here
+          </Link>{" "}
+          to book an appointment now or Call us on{" "}
+          <a href={phonePrimaryHref} className="font-bold">
+            {phonePrimary}
+          </a>
+        </p>
+      </div>
+
       {/* Navbar – no links, only actions */}
       <header className="border-b border-amber-100 bg-white/80 backdrop-blur sticky top-0 z-40">
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-4 lg:px-8 lg:py-5">
@@ -69,30 +83,42 @@ export default function Home() {
             </Link>
           </div>
 
-          {/* Mobile Phone Number */}
+          {/* Mobile WhatsApp Button */}
           <div className="flex md:hidden shrink-0 ml-2">
             <a
-              href={phonePrimaryHref}
-              className="px-3 py-1.5 rounded-full bg-amber-600 text-white text-[11px] sm:text-sm font-bold hover:bg-amber-700 transition-colors whitespace-nowrap shadow-sm shadow-amber-500/30"
+              href={`https://wa.me/${whatsappNumber}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3 py-1.5 rounded-full bg-emerald-600 text-white text-[11px] sm:text-sm font-bold hover:bg-emerald-700 transition-colors whitespace-nowrap shadow-sm shadow-emerald-500/30 flex items-center gap-1.5"
             >
-              {phonePrimary}
+              <svg viewBox="0 0 32 32" className="h-4 w-4 fill-white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 2C8.268 2 2 8.268 2 16c0 2.482.666 4.81 1.822 6.822L2 30l7.395-1.791A13.94 13.94 0 0 0 16 30c7.732 0 14-6.268 14-14S23.732 2 16 2zm7.41 19.574c-.31.872-1.538 1.596-2.528 1.806-.674.14-1.554.252-4.515-.972-3.787-1.536-6.231-5.376-6.422-5.626-.183-.25-1.54-2.048-1.54-3.906 0-1.858.97-2.772 1.316-3.153.347-.38.756-.476 1.008-.476.252 0 .504.003.724.012.232.01.544-.088.85.65.31.748 1.054 2.606 1.146 2.794.092.188.15.408.03.658-.12.25-.18.407-.356.626-.176.22-.37.49-.528.658-.176.188-.36.39-.154.766.206.376.914 1.508 1.964 2.44 1.35 1.204 2.49 1.576 2.866 1.752.376.176.594.147.812-.088.22-.236.94-1.096 1.19-1.472.25-.376.5-.314.844-.188.344.126 2.19 1.032 2.566 1.22.376.188.628.282.72.438.09.156.09.9-.22 1.772z" />
+              </svg>
+              WhatsApp
             </a>
           </div>
 
           <div className="hidden items-center gap-3 md:flex">
             <a
-              href={phonePrimaryHref}
-              className="rounded-full border border-amber-200 px-4 py-2 text-sm font-semibold text-amber-800 transition hover:border-amber-300 hover:bg-amber-50"
+              href={`https://wa.me/${whatsappNumber}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-emerald-200 px-4 py-2 text-sm font-semibold text-emerald-800 transition hover:border-emerald-300 hover:bg-emerald-50 flex items-center gap-2"
             >
-              📞 Call Now
+              <svg viewBox="0 0 32 32" className="h-5 w-5 fill-emerald-600" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 2C8.268 2 2 8.268 2 16c0 2.482.666 4.81 1.822 6.822L2 30l7.395-1.791A13.94 13.94 0 0 0 16 30c7.732 0 14-6.268 14-14S23.732 2 16 2zm7.41 19.574c-.31.872-1.538 1.596-2.528 1.806-.674.14-1.554.252-4.515-.972-3.787-1.536-6.231-5.376-6.422-5.626-.183-.25-1.54-2.048-1.54-3.906 0-1.858.97-2.772 1.316-3.153.347-.38.756-.476 1.008-.476.252 0 .504.003.724.012.232.01.544-.088.85.65.31.748 1.054 2.606 1.146 2.794.092.188.15.408.03.658-.12.25-.18.407-.356.626-.176.22-.37.49-.528.658-.176.188-.36.39-.154.766.206.376.914 1.508 1.964 2.44 1.35 1.204 2.49 1.576 2.866 1.752.376.176.594.147.812-.088.22-.236.94-1.096 1.19-1.472.25-.376.5-.314.844-.188.344.126 2.19 1.032 2.566 1.22.376.188.628.282.72.438.09.156.09.9-.22 1.772z" />
+              </svg>
+              Chat on WhatsApp
             </a>
-            <div className="flex flex-col items-center justify-center bg-amber-50 border border-amber-200 rounded-full px-5 py-1.5 shadow-sm">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-amber-600 mb-0.5 leading-none">Book Appointment</span>
+            <div className="flex flex-col items-center justify-center bg-emerald-50 border border-emerald-200 rounded-full px-5 py-1.5 shadow-sm">
+              <span className="text-[10px] font-bold uppercase tracking-widest text-emerald-600 mb-0.5 leading-none">WhatsApp Us</span>
               <a
-                href={phonePrimaryHref}
-                className="text-base font-black tracking-tight text-slate-800 leading-none transition hover:text-amber-700"
+                href={`https://wa.me/${whatsappNumber}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-base font-black tracking-tight text-slate-800 leading-none transition hover:text-emerald-700"
               >
-                +91 91996775661
+                +91 {whatsappNumber.slice(2, 7)} {whatsappNumber.slice(7)}
               </a>
             </div>
             <a
